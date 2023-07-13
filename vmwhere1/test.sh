@@ -1,0 +1,1 @@
+valgrind --trace-children=yes --tool=callgrind ./chal program < flag.txt 2>&1 | grep refs | cut -d ' ' -f11
